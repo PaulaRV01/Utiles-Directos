@@ -8,7 +8,7 @@ $bd = "sis_venta";
 $conexion = mysqli_init();
 
 // Configurar SSL
-mysqli_ssl_set($conexion, NULL, NULL, "C:\Users\Paula\Downloads\DigiCertGlobalRootCA.crt.pem", NULL, NULL);
+mysqli_ssl_set($conexion, NULL, NULL, "DigiCertGlobalRootCA.crt.pem", NULL, NULL);
 
 // Realizar la conexión utilizando SSL
 mysqli_real_connect($conexion, $host, $user, $clave, $bd, 3306, MYSQLI_CLIENT_SSL);
