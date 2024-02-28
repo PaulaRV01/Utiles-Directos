@@ -1,8 +1,8 @@
 <?php
 
-    $host = "localhost";
-    $user = "root";
-    $clave = "";
+    $host = "srvmysql.mysql.database.azure.com";
+    $user = "srvadmin";
+    $clave = "#utilesdirectos1*";
     $bd = "sis_venta";
 
     $conexion = mysqli_connect($host,$user,$clave,$bd);
